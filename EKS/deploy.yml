@@ -27,7 +27,7 @@ spec:
                 - arm64
       containers:
       - name: nginx
-        image: public.ecr.aws/nginx/nginx:1.23
+        image: adijaiswal/tetris:v1
         ports:
         - name: http
           containerPort: 80
